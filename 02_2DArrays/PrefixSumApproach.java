@@ -1,5 +1,5 @@
 import java.util.*;
-import java.io.*;
+// import java.io.*;
 
 //Time complexity : O(m*n)
 //space complexity : O(1)
@@ -7,8 +7,8 @@ public class PrefixSumApproach{
 
    public static int findSumMatrix(int arr[][], int r1, int c1, int r2, int c2){
          int sum = 0;
-         for(int i=r1; i<r2; i++){
-            for(int j=c1; j<c2; j++){
+         for(int i=r1; i<=r2; i++){
+            for(int j=c1; j<=c2; j++){
                 sum+= arr[i][j];
             }
          }
