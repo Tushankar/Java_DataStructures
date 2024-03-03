@@ -1,1 +1,25 @@
-hello
+Array is linear data structure stored datas in contigous manner(first element of array will
+have a adress such as base adresssuppose its 1000 is his adreess to find the next elemnt we
+will add 4 to the adress as 4 is the size of the integer 4 bytes)
+
+2 4 6 8 12 14 20 ->store always same type of data all integer
+0 1 2 3 4  5  6  -> indexes so , if the size of array is n the last element will be at n-1
+
+random accesss-> we can access any elements randomly directly just by passing the index number 
+array.length always gives the size of the array
+
+Size of array is fixed so static data type
+
+
+Array implementation : 
+int arr[];
+int arr[] = {2,4,6,8,10,12,14};//Store elements in the array
+
+
+1. Palindrome 
+
+1 2 3 2 1  ->bt printing we get: 1,2,3,2,1
+0 1 2 3 4 (index) ->if we print it reverse: 1, 2, 3, 2, 1
+
+approach 1:
+  
