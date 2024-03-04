@@ -8,6 +8,8 @@ import java.util.Arrays;
 //At every iteration, we get smaller element inthe extreme left
 //If you want to find top two smallest element use selection sort
 //if you want to find last two largest element use bubble sort
+//If you looking for less no swaps use this as selection sort use
+// single swap in single iterations it is better than bubble
 
 public class SelectionSort {
 
