@@ -35,5 +35,6 @@ public class SquareRoot {
         //Function calling
         int result = findSquareRoot(num);
         System.out.println("Square root of the given number: "+ num +" is: " +result);
+        sc.close();
     }
 }
