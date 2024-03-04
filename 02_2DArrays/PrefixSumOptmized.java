@@ -66,6 +66,7 @@ public class PrefixSumOptmized {
 
         int result = sumRegion(arr,r1,c1,r2,c2);
         System.out.println("Sum of elements of the given rectangle is: " + result);
+        sc.close();
 
 
     }
