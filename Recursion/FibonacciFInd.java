@@ -23,5 +23,6 @@ public class FibonacciFInd {
 
         int result = fibonacciFinding(n);
         System.out.println("The nth fibonacci number is :"+ result);
+        sc.close();
     }
 }
