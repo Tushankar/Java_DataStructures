@@ -56,4 +56,5 @@ public class Insertion {
         System.out.println("After insertion of 10 ");
         list.displayLL();
     }
+   
 }
