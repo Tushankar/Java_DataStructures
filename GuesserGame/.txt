@@ -1,0 +1,10 @@
+number of classes -- guesser -- player -- umpire
+
+guesser -- 1 -- method
+player -- 1 -- method
+umpire -- 3 -- method
+
+main method class
+
+total classes-4
+
