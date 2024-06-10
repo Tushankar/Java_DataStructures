@@ -3,7 +3,7 @@ public class randomizedQuickSort {
     public static int partition(int[] arr, int l, int h){
  
      int randomIndex = l + (int)Math.random() % (h - l + 1);
-     int temp = arr[randomIndex];
+    // int temp = arr[randomIndex];
      arr[randomIndex] = arr[l];
      arr[l] = arr[randomIndex];
      
